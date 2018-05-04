@@ -103,7 +103,7 @@ class NNEstimator(Estimator):
         time = time if time>=0 else 0
         return time
 
-    def initialize_all_estimator(self, size=32):
+    def initialize_all_estimator(self, n_layers=2, size=32):
         with log_time("create graph"):
             for edge in self._map:
                 with tf.variable_scope("edge_"+edge.id.replace("#", "_")):
@@ -149,7 +149,7 @@ class NNEstimator(Estimator):
     def __update_pheromone(self):
         self.__all_pheromones.update_pheromone(self)
 
-    def train(self, data_input, label, edge_id):
+    def train(self, data_input, label, edge_id, n_epoch=100, verbose=1):
         model = self.models[edge_id]
         # print(edge_id, 'Number Of Samples:', len(input))
         # print(samples)
