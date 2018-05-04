@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+
+   <input>
+       <net-file value="grid_33.net.xml"/>
+       <route-files value="grid_33.rou.xml"/>
+   </input>
+
+   <processing>
+        <ignore-route-errors value="false"/>
+        <time-to-teleport value="0"/>
+        <time-to-impatience value="0"/>
+        <collision.action value="warn"/>
+    </processing>
+
+    <output>
+        <tripinfo-output value="trip_info.xml"/>
+        <summary-output value="summary.xml"/>
+    </output>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="false"/>
+    </report>
+
+</configuration>

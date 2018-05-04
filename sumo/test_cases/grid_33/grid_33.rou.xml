@@ -1,0 +1,47 @@
+<routes>
+	<vType id="pkw" length="5" maxSpeed="50" accel="2.6" decel="4.5" sigma="0.2" vClass="passenger"/>
+
+    <route id="route_id_0" color="1,1,0" edges="L13 L02 L18 L07 L23 L12"/>
+    <route id="route_id_1" color="1,0.5,0" edges="L01 L14 L06 L19 L11 L24"/>
+
+    <vehicle id="vid_0" type="pkw" route="route_id_0" depart="0" color="1,0,0"/>
+    <vehicle id="vid_1" type="pkw" route="route_id_1" depart="0" color="0.5,0,0"/>
+    <vehicle id="vid_2" type="pkw" route="route_id_1" depart="0" color="0.5,0,0"/>
+    <vehicle id="vid_3" type="pkw" route="route_id_1" depart="0" color="0.5,0,0"/>
+    <vehicle id="vid_4" type="pkw" route="route_id_1" depart="0" color="0.5,0,0"/>
+<vehicle id="vid_5" type="pkw" route="route_id_1" depart="0" color="0.5,0,0"/>
+<vehicle id="vid_6" type="pkw" route="route_id_1" depart="0" color="0.5,0,0"/>
+<vehicle id="vid_7" type="pkw" route="route_id_1" depart="0" color="0.5,0,0"/>
+<vehicle id="vid_8" type="pkw" route="route_id_1" depart="0" color="0.5,0,0"/>
+<vehicle id="vid_9" type="pkw" route="route_id_1" depart="0" color="0.5,0,0"/>
+<vehicle id="vid_10" type="pkw" route="route_id_1" depart="0" color="0.5,0,0"/>
+<vehicle id="vid_11" type="pkw" route="route_id_1" depart="0" color="0.5,0,0"/>
+<vehicle id="vid_12" type="pkw" route="route_id_1" depart="0" color="0.5,0,0"/>
+<vehicle id="vid_13" type="pkw" route="route_id_1" depart="0" color="0.5,0,0"/>
+<vehicle id="vid_14" type="pkw" route="route_id_1" depart="0" color="0.5,0,0"/>
+<vehicle id="vid_15" type="pkw" route="route_id_1" depart="0" color="0.5,0,0"/>
+<vehicle id="vid_16" type="pkw" route="route_id_1" depart="0" color="0.5,0,0"/>
+<vehicle id="vid_17" type="pkw" route="route_id_1" depart="0" color="0.5,0,0"/>
+<vehicle id="vid_18" type="pkw" route="route_id_1" depart="0" color="0.5,0,0"/>
+<vehicle id="vid_19" type="pkw" route="route_id_1" depart="0" color="0.5,0,0"/>
+<vehicle id="vid_20" type="pkw" route="route_id_1" depart="0" color="0.5,0,0"/>
+<vehicle id="vid_21" type="pkw" route="route_id_1" depart="0" color="0.5,0,0"/>
+<vehicle id="vid_22" type="pkw" route="route_id_1" depart="0" color="0.5,0,0"/>
+<vehicle id="vid_23" type="pkw" route="route_id_1" depart="0" color="0.5,0,0"/>
+<vehicle id="vid_24" type="pkw" route="route_id_1" depart="0" color="0.5,0,0"/>
+
+<vehicle id="vid_25" type="pkw" route="route_id_0" depart="0" color="1,0,0"/>
+<vehicle id="vid_26" type="pkw" route="route_id_0" depart="0" color="1,0,0"/>
+<vehicle id="vid_27" type="pkw" route="route_id_0" depart="0" color="1,0,0"/>
+<vehicle id="vid_28" type="pkw" route="route_id_0" depart="0" color="1,0,0"/>
+<vehicle id="vid_29" type="pkw" route="route_id_0" depart="0" color="1,0,0"/>
+<vehicle id="vid_30" type="pkw" route="route_id_0" depart="0" color="1,0,0"/>
+<vehicle id="vid_31" type="pkw" route="route_id_0" depart="0" color="1,0,0"/>
+<vehicle id="vid_32" type="pkw" route="route_id_0" depart="0" color="1,0,0"/>
+<vehicle id="vid_33" type="pkw" route="route_id_0" depart="0" color="1,0,0"/>
+<vehicle id="vid_34" type="pkw" route="route_id_0" depart="0" color="1,0,0"/>
+<vehicle id="vid_35" type="pkw" route="route_id_0" depart="0" color="1,0,0"/>
+<vehicle id="vid_36" type="pkw" route="route_id_0" depart="0" color="1,0,0"/>
+<vehicle id="vid_37" type="pkw" route="route_id_0" depart="0" color="1,0,0"/>
+
+</routes>
