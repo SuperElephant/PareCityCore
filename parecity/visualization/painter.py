@@ -137,6 +137,7 @@ class Painter:
 
         # legend()
         # savefig(self.__image_name + ".png")
+        fig.savefig("temp.png")
 
         # plt.show()
         # fig.clf()
@@ -211,12 +212,14 @@ class GifPainter:
                 self.all_weights.append(PheromonesGetter(pheromones,i))
                 self.update_scale(i)
 
-    def print(self, name):
+    def print(self, name="visualization"):
         for i in range(min(len(self.all_weights), self.max_frames)):
             painter = Painter( self.all_weights[i],
                               net_filename = self.net_file, scale = self.scale)
             self.images.append(painter.print_map())
         imageio.mimsave(name + '.gif', self.images, duration =self.duration)
+        if os.path.exists("temp.png"):
+            os.remove("temp.png")
 
     def update_scale(self, index):
         self.scale[0] = min(int(self.all_weights[index].min), self.scale[0])
