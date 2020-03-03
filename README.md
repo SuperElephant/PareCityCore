@@ -1,5 +1,7 @@
 
 # PareCity User Manual
+Group 1 of COMP214. The multi-agent dynamic routing algorithm.
+
 ## Software Description
 This project aims to propose a novel multi-agent dynamic routing algorithm aiming at minimising the expected travel time of each agent in the network in this system. We build this independent programme that can interface to the traffic simulation environment - SUMO. The main tasks of this program include training a model based on our algorithm as well as run a traffic flow simulation based on our algorithm and baselines. In addition, this program is aimed at researchers and mainly used for academic purpose.
 
